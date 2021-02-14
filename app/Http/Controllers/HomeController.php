@@ -68,6 +68,12 @@ class HomeController extends Controller
         $request->session()->flush();
         $request->session()->forget("proAssigmentID");
         $request->session()->flush();
-        return \redirect('/');
+        return \redirect('/home');
+    }
+    public function homePage()
+    {
+        $dataForUser['homeData'] = $this->modelTask->getAllForUserTaskProject();
+
+        return view('pages/home',$dataForUser);
     }
 }

@@ -1,1 +1,96 @@
-
+*{
+    margin: 0px; 
+	padding: 0px; 
+}
+p{
+    font-size: 20px;
+}
+label{
+    font-size: 17px;
+}
+th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #005bea;
+    color: white;
+}
+td,th{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+table{
+    border: 1px solid black;
+}
+input[type=text], select {
+    width: 65%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 65%;
+    background-color: #005bea;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  input[type=submit]:hover {
+    transition: 0.3s;
+    background-color: #05275e;
+  }
+.main{
+    width: 100%;
+    height: auto;
+    margin: 0px auto;
+    text-align: center;
+    margin-top: 150px;
+}
+#user{
+    float: left;
+    margin-left: 20%;
+}
+#project{
+    margin-right: 20%;
+    float: right;
+}
+#tableUser{
+    margin: 0px auto;   
+    margin-top: 20px;
+}
+.tasks{
+    width: 30%;
+    height: auto;
+    margin: 0px auto;
+    text-align: left;
+    padding-left: 16%;
+}
+#title{
+    margin-bottom: 20px;
+}
+#taskB{
+    margin-top: 20px;
+}
+#assignments:link, #assignments:visited {
+    background-color: #005bea;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.3s;
+  }
+  
+#assignments:hover, #assignments:active {
+    transition: 0.3s;
+    background-color:#05275e;
+  }
