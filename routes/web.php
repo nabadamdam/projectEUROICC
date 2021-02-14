@@ -14,7 +14,7 @@ use App\Http\Controllers\HomeController;
 |
 */
 
-Route::get('/home',[HomeController::class,'homePage']);
+Route::get('/',[HomeController::class,'homePage']);
 Route::get('/assignments',[HomeController::class,'assignmentsPage']);
 Route::post('/projectAssigments',[HomeController::class,'insertAssignment']);
 Route::get('/tasks',[HomeController::class , 'tasksPage']);
