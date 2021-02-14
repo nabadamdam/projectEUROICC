@@ -68,7 +68,7 @@ class HomeController extends Controller
         $request->session()->flush();
         $request->session()->forget("proAssigmentID");
         $request->session()->flush();
-        return \redirect('/home');
+        return \redirect('/');
     }
     public function homePage()
     {
